@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="coinbates" verbose="4">
+    <listeners>
+        <listener class-name="com.zeerow.qa.util.api.common.APITestBase"></listener>
+    </listeners>
+    <test name="Functional_Test">
+        <classes>
+            <!--<class name="EmailUserRegistrationTest" />-->
+            <!--<class name="EmailUserLoginTest" />-->
+            <!--<class name="EmailUserProfileUpdateTest" />-->
+            <!--<class name="EmailLogoutTest" />-->
+
+            <class name="EndToEndTest" />
+
+            <!--<class name="SNSUserLoginTest" />-->
+            <!--<class name="SNSLogoutTest" />-->
+            <!--<class name="SNSForgotPasswordTest" />-->
+            <!--<class name="SNSUserProfileUpdateTest" />-->
+            <!--<class name="SNSUserRegistrationTest" />-->
+
+        </classes>
+    </test>
+</suite>
